@@ -285,6 +285,31 @@ div {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.page-wrapper:hover{
+    animation: shakeanimation;
+  animation-duration: 1s;
+  transform: translate3d(0, 0, 0);
+}
+ 
+@keyframes shakeanimation {
+  15%, 85% {
+    transform: translate3d(-2px, 0, 0);
+  }
+  
+  25%, 75% {
+    transform: translate3d(4px, 0, 0);
+  }
+ 
+  30%, 50%, 70% {
+    transform: translate3d(-8px, 0, 0);
+  }
+ 
+  40%, 60% {
+    transform: translate3d(8px, 0, 0);
+  }
+}
+
 .kidbad{
     position: relative;
     width: 15vmax;
@@ -323,4 +348,66 @@ div {
     top: 100px;
     right: 100px;
 }
+
+
+
+.wave{
+    position: absolute;
+    width: 100%;
+    top: 450px;
+    display: block;
+}
 /***** End Hero *****/
+
+
+
+/***** hero responsive *****/
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .main-contaner{
+        width: fit-content;
+        height: 60vh;
+    }
+    .kidbad{
+        display: none;
+    }
+
+    .goodgirl{
+        position: relative;
+        right: 250px;
+    }
+    .splash{
+        justify-content: center;
+        right: 100px;
+        padding-top: 30px;
+    }
+
+    .splash h1{
+        font-size: 2px;
+        position: relative;
+        left: 0px;
+        top: -250px;
+    }
+
+    .wave{
+        display: none;
+    }
+  }
+
+
+  
+/***** End hero responsive *****/
+
+
+
+/***** About *****/
+
+.about{
+    position: relative;
+    display: flex;
+    background-color: #fff;
+    padding: 50px;
+}
+
+
+/***** End About *****/
