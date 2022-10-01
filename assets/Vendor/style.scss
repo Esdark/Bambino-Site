@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Oxygen:wght@300;400;700&display=swap');
+
+
+body{
+    font-family: 'Catamaran', sans-serif !important;
+}
+
+
+
+
+/***** Nav *****/
+.close-menu {
+    display: none;
+  }
+  .navbar{
+    background-color: #fff !important;
+    font-family: 'Catamaran', sans-serif;
+  }
+.navbar-brand img{
+    width: 100px;
+    height: auto;
+    position: relative;
+}
+  .nav-link {
+    text-align: center;
+    color: #212121 !important;
+    font-weight: 600;
+    transition: all 200ms linear;
+  }
+  .nav-item:hover .nav-link {
+    color: #F8BBCC !important;
+  }
+  .nav-item.active .nav-link {
+    color: #777 !important;
+  }
+  .nav-link {
+    position: relative;
+    padding: 5px 0 !important;
+    display: inline-block;
+  }
+  .nav-item:after {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    content: "";
+    background-color: #94D5EB;
+    opacity: 0;
+    transition: all 200ms linear;
+  }
+  .nav-item:hover:after {
+    bottom: 0;
+    opacity: 1;
+  }
+  .nav-item.active:hover:after {
+    opacity: 0;
+  }
+  .nav-item {
+    position: relative;
+    transition: all 200ms linear;
+  }
+  .active{
+    color: #F8BBCC !important;
+  }
+  @media only screen and (max-width: 991px) {
+  .navbar-collapse {
+      position: fixed;
+      top: 0px;
+      left: 0;
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-bottom: 15px;
+      width: 75%;
+      height: 100%;
+      box-shadow: -2px 0px 7px 0px #281931;
+      -moz-box-shadow: -2px 0px 7px 0px #281931;
+      -webkit-box-shadow: -2px 0px 7px 0px #281931;
+      transition: all 0.3s ease-in-out;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+    }
+    .navbar-collapse.collapsing {
+      left: -75%;
+      transition: height 0s ease;
+    }
+    .navbar-collapse.show {
+      left: 0;
+      transition: left 300ms ease-in-out;
+      -webkit-transition: left 300ms ease-in-out;
+      -moz-transition: left 300ms ease-in-out;
+      -ms-transition: left 300ms ease-in-out;
+      -o-transition: left 300ms ease-in-out;
+  }
+    .navbar-toggler.collapsed ~ .navbar-collapse {
+      transition: left 500ms ease-in-out;
+    }
+    .header {
+      position: relative;
+      z-index: 1001;
+    }
+    .header .navbar-toggler {
+      border: 1px solid #1500ff;
+      color: #1B127B;
+      font-size: 18px;
+      padding: 6px 10px;
+    }
+    .header .navbar-toggler i {
+      font-size: 25px;
+      color: #1B127B;
+      line-height: 26px;
+    }
+    .header .header-menu {
+      background-color: #ffffff;
+      z-index: 1001;
+      padding-top: 75px;
+      height: 100vh;
+    }
+    .header .navbar-collapse {
+      width: 50% !important;
+      background-color: #ffffff;
+    }
+    .close-menu {
+      display: block;
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      width: 20px;
+      text-decoration: none;
+      color: #000000;
+      font-size: 26px;
+    }
+  }
+
+  .bookus .btn-primary{
+    color: #fff;
+    background-color: #F8BBCC !important;
+    border-color: #F8BBCC !important;
+  }
+/***** End Nav *****/
