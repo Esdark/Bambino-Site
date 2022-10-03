@@ -2,11 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Oxygen:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
 
 * {
   scroll-behavior: inherit !important;
@@ -404,20 +399,21 @@ div {
     display: flex;
     font-family: 'Permanent Marker', cursive;
     background-color: #fff;
-    padding: 50px;
+    height: 70vh;
+    justify-content: center;
 }
 
 
 .girlboyimg{
   display: flex;
   float: left;
-
+  margin-right: 50px;
 }
 
 .abouth1{
   display: flex;
   float: inline-end;
-  font-size: 65px;
+  font-size: 60px;
   color: #94D5EB;
 }
 
@@ -437,7 +433,7 @@ div {
 }
 .abouth4{
   display: flex;
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 800;
   color: #94D5EB;
 }
@@ -445,6 +441,27 @@ div {
 .aboutcontent{
   display: flex;
   float: right;
+}
+
+
+.animatewho{
+  animation: pulse-black 2s infinite;;
+}
+
+@keyframes pulse-black {
+  0% {
+    transform: scale(0.95);
+  }
+  
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+  
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
 }
 /***** End About *****/
 
@@ -503,4 +520,53 @@ div {
 
 /***** End About Resposive *****/
 
+/***** services *****/
 
+  .services{
+    position: relative;
+    display: flex;
+    color: #fff;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 85px;
+    top: 50px;
+  }
+
+  #service{
+    position: relative;
+    background-color: #94D5EB;
+  }
+
+
+  .haircut{
+    width: 100%;
+    display: flex;
+    position: relative;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .haircut img{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 50px;
+  }
+
+  .haircut h4{
+    color: #fff;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+  }
+
+  .img1{
+    padding-top: 60px;
+  }
+  .img2{
+    padding-top: 0px;
+  }
+  .img3{
+    padding-top: 80px;
+  }
+  .img4{
+    padding-top: 20px;
+  }
+/***** End services *****/
