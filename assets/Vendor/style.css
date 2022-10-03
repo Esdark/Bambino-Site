@@ -530,6 +530,8 @@ div {
 #service {
   position: relative;
   background-color: #94D5EB;
+  background-image: url(/assets/img/dots.svg);
+  background-size: contain;
 }
 
 .haircut {
@@ -565,7 +567,7 @@ div {
 }
 
 .img4 {
-  padding-top: 20px;
+  padding-top: 0px;
 }
 
 /***** End services *****//*# sourceMappingURL=style.css.map */
