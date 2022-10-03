@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Oxygen:wght@300;400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 *,
 *:before,
@@ -16,8 +16,8 @@ html,
 body {
   height: auto;
   width: 100%;
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
   overflow-x: hidden;
   box-sizing: border-box;
 }
@@ -58,43 +58,6 @@ ul {
 
 li {
   list-style: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #1e1d1d;
-  margin: 0px;
-  font-weight: 700;
-  font-family: 'Quicksand', sans-serif;
-  line-height: 1.2;
-}
-
-h1 {
-  font-size: 40px;
-}
-
-h2 {
-  font-size: 35px;
-}
-
-h3 {
-  font-size: 28px;
-}
-
-h4 {
-  font-size: 22px;
-}
-
-h5 {
-  font-size: 18px;
-}
-
-h6 {
-  font-size: 16px;
 }
 
 p {
@@ -354,7 +317,7 @@ div {
 .wave{
     position: absolute;
     width: 100%;
-    top: 450px;
+    top: 470px;
     display: block;
 }
 /***** End Hero *****/
@@ -365,7 +328,7 @@ div {
 @media only screen and (max-width: 600px) {
     /* For mobile phones: */
     .main-contaner{
-        width: fit-content;
+        width: 100%;
         height: 60vh;
     }
     .kidbad{
@@ -426,6 +389,9 @@ div {
   }
 
   }
+
+
+  
   
 /***** End hero responsive *****/
 
@@ -436,9 +402,105 @@ div {
 .about{
     position: relative;
     display: flex;
+    font-family: 'Permanent Marker', cursive;
     background-color: #fff;
     padding: 50px;
 }
 
 
+.girlboyimg{
+  display: flex;
+  float: left;
+
+}
+
+.abouth1{
+  display: flex;
+  float: inline-end;
+  font-size: 65px;
+  color: #94D5EB;
+}
+
+.abouth2{
+  display: flex;
+  float: inline-start;
+  font-size: 50px;
+  font-weight: 800;
+  color: #F8BBCC;
+}
+
+.abouth3{
+  display: flex;
+  font-size: 35px;
+  font-weight: 400;
+  color: #F8BBCC;
+}
+.abouth4{
+  display: flex;
+  font-size: 45px;
+  font-weight: 800;
+  color: #94D5EB;
+}
+
+.aboutcontent{
+  display: flex;
+  float: right;
+}
 /***** End About *****/
+
+
+/***** About Resposive *****/
+@media only screen and (max-width: 600px) {
+  .about{
+    position: relative;
+    display: flex;
+    font-family: 'Permanent Marker', cursive;
+    background-color: #fff;
+    width: 100%;
+  }
+
+
+  .girlboyimg{
+  display: flex;
+  position: relative;
+  float: left;
+  width: 50px;
+
+  }
+
+  .abouth1{
+  display: flex;
+  float: inline-end;
+  font-size: 30px;
+  color: #94D5EB;
+  }
+
+  .abouth2{
+  display: flex;
+  float: inline-start;
+  font-size: 25px;
+  font-weight: 800;
+  color: #F8BBCC;
+  }
+
+  .abouth3{
+  display: flex;
+  font-size: 25px;
+  font-weight: 400;
+  color: #F8BBCC;
+  }
+  .abouth4{
+  display: flex;
+  font-size: 45px;
+  font-weight: 800;
+  color: #94D5EB;
+  }
+
+  .aboutcontent{
+  display: none;
+  }
+}
+
+/***** End About Resposive *****/
+
+
