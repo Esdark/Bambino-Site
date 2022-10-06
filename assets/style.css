@@ -41,7 +41,8 @@
 @import 'css/font-awesome.min.css';
 @import 'css/icofont.css';
 @import 'css/plugins/animated-headline.css';
-
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Oxygen:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 
 /* ==================
@@ -54,7 +55,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Catamaran', sans-serif;
     font-size: 15px;
     background-color: #fff;
 }
@@ -320,6 +321,7 @@ ol {
 }
 
 .section-heading > h2 {
+    color: #fff;
     font-size: 30px;
     text-transform: capitalize;
     display: block;
@@ -717,10 +719,11 @@ ol {
 }
 
 .welcome-text > h1 {
-    color: #fff;
+    color: #FADE3D;
     font-size: 66px;
     margin-bottom: 20px;
     font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
 }
 .kidbad{
     position: relative;
@@ -742,12 +745,16 @@ ol {
 /* ========================
 :: 4.0 Our Service Area CSS 
 ===================== */
+#service{
+    background-color: #94D5EB;
+}
 
 .single_service_content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 50px;
+    font-family: 'Roboto Slab', serif;
 }
 
 .service_icon {
@@ -784,6 +791,7 @@ ol {
     -webkit-transition-duration: 700ms;
     -o-transition-duration: 700ms;
     transition-duration: 700ms;
+    color: #fff;
 }
 
 .service_text > p {
@@ -796,8 +804,8 @@ ol {
 }
 
 .single_service_content:hover .service_icon {
-    background-color: #94D5EB;
-    border-color: #94D5EB;
+    background-color: #F8BBCC;
+    border-color: #F8BBCC;
 }
 
 .single_service_content:hover .service_icon > i {
@@ -805,7 +813,7 @@ ol {
 }
 
 .single_service_content:hover .service_text > h5 {
-    color: #94D5EB
+    color: #fff;
 }
 
 /* ========================
@@ -815,6 +823,7 @@ ol {
 .about_us_area {
     position: relative;
     z-index: 5;
+    font-family: 'Permanent Marker';
 }
 
 .side_iamge {
@@ -847,10 +856,12 @@ ol {
 .about_us_content > h2 {
     font-size: 30px;
     margin-bottom: 25px;
+    font-family: 'Permanent Marker';
 }
 
 .about_us_content > p {
     margin-bottom: 30px;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .abouth1{
@@ -858,6 +869,7 @@ ol {
     float: inline-end;
     font-size: 30px;
     color: #94D5EB;
+    font-family: 'Permanent Marker';
     }
   
     .abouth2{
@@ -866,6 +878,7 @@ ol {
     font-size: 25px;
     font-weight: 800;
     color: #F8BBCC;
+    font-family: 'Permanent Marker';
     }
   
     .abouth3{
@@ -873,12 +886,14 @@ ol {
     font-size: 25px;
     font-weight: 400;
     color: #F8BBCC;
+    font-family: 'Permanent Marker', cursive;
     }
     .abouth4{
     display: flex;
     font-size: 45px;
     font-weight: 800;
     color: #94D5EB;
+    font-family: 'Permanent Marker', cursive;
     }
 
 
