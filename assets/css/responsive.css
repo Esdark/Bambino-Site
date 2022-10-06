@@ -1,0 +1,315 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+    .welcome-text > h2 {
+        font-size: 48px;
+    }
+    .newsletter_heading > h2 {
+        font-size: 26px;
+    }
+    .newsletter_heading > p {
+        font-size: 13px;
+    }
+    .subscribe-form .email {
+        padding: 10px;
+    }
+    .some_fact_area {
+        padding-left: 100px;
+    }
+    .dream-faq-area dt > span {
+        margin-right: 15px;
+    }
+    .faq-title > h2 {
+        left: -130px;
+    }
+    .dream-faq-area dd p {
+        padding: 15px;
+    }
+    .dream-faq-area dt {
+        padding: 15px 70px;
+        font-size: 14px;
+    }
+    .dream-faq-area dt > span {
+        padding: 17px 30px;
+    }
+    .portfolio_gallery_iteam {
+        width: 33.333%;
+    }
+    .about_us_thumb_2 {
+        width: 270px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .welcome-text > h2 {
+        font-size: 44px;
+    }
+    .welcome-text > p {
+        font-size: 15px;
+    }
+    .about_us_content > h2 {
+        font-size: 24px;
+    }
+    .about_us_content > p {
+        font-size: 14px;
+    }
+    .portfolio_gallery_iteam {
+        width: 50%;
+    }
+    .blog_text > a > h4 {
+        font-size: 20px;
+    }
+    .blog_text > p {
+        font-size: 14px;
+    }
+    .newsletter_heading > h2 {
+        font-size: 20px;
+    }
+    .newsletter_heading > p {
+        font-size: 13px;
+    }
+    .subscribe-form .email {
+        padding: 8px;
+        font-size: 12px;
+    }
+    .subscribe-form .submit {
+        min-width: 110px;
+        right: 6%;
+        font-size: 13px;
+    }
+    .some_fact_area {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .faq-title > h2 {
+        display: none;
+    }
+    .about_us_thumb {
+        margin-right: 0;
+    }
+    .welcome_slides_area .owl-prev {
+        left: 15px;
+    }
+    .welcome_slides_area .owl-next {
+        right: 15px;
+    }
+    .about_us_thumb_2 {
+        width: 230px;
+        right: 1%;
+    }
+
+    #googleMap {
+        height: 600px;
+    }
+    .how_we_single_content > p {
+        font-size: 12px;
+    }
+    .how_we_single_content > h5 {
+        font-size: 16px;
+    }
+    .welcome_area {
+        height: 600px;
+    }
+    .work_process_single_content > h5 {
+        font-size: 16px;
+    }
+    .work_process_single_content > p {
+        font-size: 13px;
+    }
+    .footer_social_icon > a > i {
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .classy-navbar {
+        height: 60px;
+    }
+    .welcome_area {
+        height: 500px;
+    }
+    .welcome-text > h2 {
+        font-size: 30px;
+        line-height: 1.7;
+    }
+    .welcome-text > p {
+        font-size: 14px;
+    }
+    .section-heading > span {
+        font-size: 40px;
+    }
+    .portfolio_gallery_iteam {
+        width: 100%;
+    }
+    .section-heading > h2 {
+        font-size: 22px;
+    }
+    .newsletter_heading > h2 {
+        font-size: 22px;
+    }
+    .newsletter_heading {
+        margin-bottom: 30px;
+    }
+    .newsletter_heading > p {
+        font-size: 14px;
+    }
+    .subscribe-form .submit {
+        min-width: 120px;
+        right: 6%;
+        font-size: 12px;
+    }
+    .btn.btn-md {
+        margin-bottom: 15px;
+    }
+    .subscribe-form .email {
+        font-size: 12px;
+    }
+    .contact_address_area {
+        margin-top: 100px;
+    }
+    .video_area,
+    .some_fact_area {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .video_area {
+        height: 500px;
+    }
+    .video_text_icon > h6 {
+        font-size: 20px;
+    }
+    .video_text_icon > p {
+        font-size: 16px;
+    }
+    .some_fact_area {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .dream-faq-area dd p {
+        font-size: 12px;
+    }
+    .faq-title > h2 {
+        display: none;
+    }
+    .dream-faq-area dt {
+        padding: 12px 60px;
+        font-size: 14px;
+    }
+    .dream-faq-area dt > span {
+        padding: 14px 20px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    .about_us_thumb {
+        margin-right: 40px;
+    }
+    .about_us_content > h2 {
+        font-size: 22px;
+    }
+    .about_us_content > p {
+        font-size: 14px;
+    }
+    .about_us_content {
+        margin-top: 50px;
+    }
+    #scrollUp {
+        right: 20px;
+    }
+    .welcome_slides_area .owl-prev,
+    .welcome_slides_area .owl-next {
+        display: none;
+    }
+    .cd-headline {
+        font-size: 30px;
+    }
+    .cd-intro.default-title > p {
+        font-size: 15px;
+    }
+    .about_us_thumb_2 {
+        width: 200px;
+    }
+    .contact_deatils {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0100%;
+        flex: 0 0100%;
+        min-width: 100%;
+    }
+    #googleMap {
+        height: 600px!important;
+    }
+    .contact_info {
+        width: 50%;
+    }
+    .contact_info {
+        margin-bottom: 30px;
+    }
+    .contact_info:last-child {
+        margin-bottom: 0;
+    }
+    .contact_form {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .how_we_work_thumb {
+        height: 500px;
+    }
+    .contact_deatils {
+        margin-top: 50px;
+    }
+    .service_icon {
+        margin-left: 15px;
+    }
+    .blog_text > a {
+        font-size: 14px;
+    }
+    .welcome-text.cd-intro > h1 {
+        font-size: 46px;
+    }
+    .work_process_icon {
+        display: none;
+    }
+    .work_process_single_content {
+        padding: 30px 40px 30px 30px;
+    }
+    .work_process_single_content.right-fea {
+        padding-right: 30px;
+        text-align: left !important;
+    }
+    .welcome-btn {
+        min-width: 180px;
+    }
+    .side_iamge {
+        opacity: 0.2;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .welcome-text > h2 {
+        font-size: 36px;
+    }
+    .about_us_thumb_2 {
+        width: 300px;
+    }
+    .section-heading > h2 {
+        font-size: 28px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .welcome-text > h2 {
+        font-size: 38px;
+    }
+    .section-heading > h2 {
+        font-size: 30px;
+    }
+    .section-heading > span {
+        top: 50px;
+    }
+    .blog_text > a > h4 {
+        font-size: 20px;
+    }
+    .newsletter_heading > h2 {
+        font-size: 28px;
+    }
+}
