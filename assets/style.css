@@ -113,7 +113,7 @@ ol {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background-color: rgba(33, 27, 49, 1);
+    background-color: #f8bbcc8f;
     position: fixed;
     width: 100%;
     height: 100%;
@@ -626,9 +626,9 @@ ol {
       padding-bottom: 15px;
       width: 75%;
       height: 100%;
-      box-shadow: -2px 0px 7px 0px #281931;
-      -moz-box-shadow: -2px 0px 7px 0px #281931;
-      -webkit-box-shadow: -2px 0px 7px 0px #281931;
+      box-shadow: -2px 0px 7px 0px #94D5EB;
+      -moz-box-shadow: -2px 0px 7px 0px #94D5EB;
+      -webkit-box-shadow: -2px 0px 7px 0px #94D5EB;
       transition: all 0.3s ease-in-out;
       -webkit-transition: all 0.3s ease-in-out;
       -moz-transition: all 0.3s ease-in-out;
@@ -656,13 +656,13 @@ ol {
     }
     .header .navbar-toggler {
       border: 1px solid #94D5EB;
-      color: #1B127B;
+      color: #94D5EB;
       font-size: 18px;
       padding: 6px 10px;
     }
     .header .navbar-toggler i {
       font-size: 25px;
-      color: #1B127B;
+      color: #94D5EB;
       line-height: 26px;
     }
     .header .header-menu {
@@ -712,7 +712,7 @@ ol {
     margin-top: 70px;
     background-image: url(./img/slider2-bg-text.svg);
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
