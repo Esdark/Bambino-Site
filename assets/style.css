@@ -595,7 +595,7 @@ ol {
     transition: all 200ms linear;
   }
   .active:after {
-    position: absolute;
+    position: relative;
     bottom: -2px;
     left: 0;
     width: 100%;
@@ -913,6 +913,23 @@ ol {
 .testimonials_area {
     position: relative;
     z-index: 1;
+    background-color: #F8BBCC;
+}
+.testimonial-heading {
+    color: #94D5EB;
+    font-size: 30px;
+    text-transform: capitalize;
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 5;
+}
+.testimonial-heading  > h2{
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 800;
 }
 
 .testimonial_image {
@@ -928,13 +945,13 @@ ol {
 
 .testimonial_text > p {
     color: #fff;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 400;
     margin-bottom: 0;
 }
 
 .testimonial_author_name > h5 {
-    background-color: #F8BBCC;
+    background-color: #94D5EB;
     display: inline-block;
     padding: 8px 25px;
     border-radius: 17.5px;
@@ -956,7 +973,7 @@ ol {
 
 .testimonials_area .owl-dot.active {
     height: 45px;
-    background-color: #F8BBCC;
+    background-color: #94D5EB;
     border-color: transparent;
 }
 
@@ -966,244 +983,8 @@ ol {
     text-align: center;
 }
 
-/* =========================
-:: 10.0 Our Team Area CSS 
-====================== */
 
-.single_team_content {
-    margin-bottom: 30px;
-    overflow: hidden;
-}
 
-.team_image {
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-}
-
-.team_image > img {
-    border-radius: 50%;
-    overflow: hidden;
-    width: 100%;
-}
-
-.team_hover_effect {
-    position: absolute;
-    z-index: 3;
-    top: 0;
-    overflow: hidden;
-}
-
-.team_image .team_hover_effect {
-    position: absolute;
-    z-index: 3;
-    top: 0;
-    bottom: -300px;
-    left: 0;
-    background-color: rgba(22, 26, 39, 0.7);
-    opacity: 0;
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-    -webkit-transition-duration: 700ms;
-    -o-transition-duration: 700ms;
-    transition-duration: 700ms;
-}
-
-.team_image .team_hover_effect {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-
-.single_team_content:hover .team_image .team_hover_effect {
-    opacity: 0.90;
-}
-
-.team_text > h5 {
-    color: #fff;
-    font-size: 18px;
-    text-transform: uppercase;
-    margin-bottom: 5px;
-}
-
-.team_text > p {
-    color: #fff;
-    font-size: 14px;
-    margin-bottom: 15px;
-}
-
-.team_icon > a > i {
-    color: #94D5EB;
-    font-size: 14px;
-    background-color: #fff;
-    height: 30px;
-    width: 30px;
-    line-height: 30px;
-    border-radius: 50%;
-}
-
-/* =============================
-:: 11.0 Our Price Table Area CSS 
-========================== */
-
-.our_price_table_area {
-    background-color: #f8f8f8;
-}
-
-.pricing-plan {
-    position: relative;
-    text-align: center;
-    background: #fff;
-    color: #999;
-    margin-bottom: 35px;
-    padding: 40px 40px 60px;
-    border-radius: 10px;
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    -o-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
-}
-
-.pricing-plan .pricing-head {
-    color: #333333;
-}
-
-.pricing-plan .icon {
-    display: block;
-    font-size: 48px;
-    margin-bottom: 13px;
-}
-
-.pricing-plan .name > h4 {
-    margin-bottom: 25px;
-    font-size: 19px;
-    color: #656565;
-    position: relative;
-}
-
-.pricing-plan .name:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    height: 50px;
-    width: 50px;
-    background: #eee;
-    top: 0;
-    border-radius: 0 0 50% 50%;
-    -webkit-transition: all 0.15s cubic-bezier(0, 0, 0, 0.2);
-    -o-transition: all 0.15s cubic-bezier(0, 0, 0, 0.2);
-    transition: all 0.15s cubic-bezier(0, 0, 0, 0.2);
-}
-
-.pricing-plan .price {
-    margin-top: 25px;
-    padding: 15px 0 10px 20px;
-    border-width: 1px 0 1px 0;
-    border-style: solid;
-    border-color: #eee;
-    margin-left: -40px;
-    margin-right: -40px;
-}
-
-.price > h5 {
-    font-size: 36px;
-    font-weight: 400;
-    margin-bottom: 0;
-}
-
-.price > h5 > span {
-    font-size: 26px;
-}
-
-.pricing-plan .pricing-body {
-    padding-top: 40px;
-}
-
-.duration > p {
-    margin-bottom: 0;
-}
-
-.pricing-body ul li {
-    margin-top: 10px;
-    padding-top: 10px;
-}
-
-.pricing-plan:hover,
-.pricing-plan.featured {
-    -webkit-box-shadow: 0px 20px 60px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 20px 60px 0px rgba(0, 0, 0, 0.1);
-}
-
-.pricing-plan:hover .fancy-button,
-.pricing-plan.featured .fancy-button {
-    border-color: #94D5EB;
-    color: #94D5EB;
-}
-
-.pricing-plan:hover .name:before,
-.pricing-plan.featured .name:before {
-    background: #94D5EB;
-}
-
-/* =======================
-:: 12.0 Our Blog Area CSS 
-===================== */
-
-.blog_single_content {
-    margin-bottom: 50px;
-}
-
-.blog_thumb > img {
-    width: 100%;
-}
-
-.blog_post_date > a > h5 {
-    color: #94D5EB;
-    font-size: 18px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.blog_text > a > h4 {
-    margin-bottom: 15px;
-    -webkit-transition-duration: 600ms;
-    -o-transition-duration: 600ms;
-    transition-duration: 600ms;
-}
-
-.blog_text > a > h4:hover {
-    color: #94D5EB;
-}
-
-.blog_text > p {
-    margin-bottom: 20px;
-}
-
-.blog_text > a {
-    font-size: 16px;
-    color: #94D5EB;
-    -webkit-transition-duration: 600ms;
-    -o-transition-duration: 600ms;
-    transition-duration: 600ms;
-}
-
-.blog_text > a:hover {
-    color: #222;
-}
-
-/* ============================
-:: 13.0 Our Partners Area CSS 
-========================= */
-
-.our_partner_area {
-    background-color: #f8f8f8;
-}
 
 /* ========================
 :: 14.0 Contact Us Area CSS 
