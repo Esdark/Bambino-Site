@@ -749,7 +749,7 @@ ol {
 
 .hero-shape {
   position: absolute;
-  width: 100%;
+  width: max-content;
   left: 0;
   bottom: -1px;
   z-index: 1;
