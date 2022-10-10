@@ -70,6 +70,7 @@
     position: relative;
     width: 19vmax;
     float: left;
+    z-index: -1;
   }
   .welcome-text {
     left: -250px;
@@ -82,11 +83,17 @@
   }
   .goodkid {
     position: absolute;
-    width: 50vmax;
+    width: 45vmax;
     display: flex;
+    z-index: -1;
   }
   .kidbad-2 {
     display: none;
+  }
+  .hero-shape {
+    position: absolute;
+    width: 100%;
+    z-index: 0;
   }
   .about_us_content > h2 {
     font-size: 24px;
