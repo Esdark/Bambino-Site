@@ -88,16 +88,6 @@
   .kidbad-2 {
     display: none;
   }
-<<<<<<< HEAD
-  .hero-shape {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    bottom: -1px;
-    z-index: -1;
-  }
-=======
->>>>>>> parent of 78346a2 (Update responsive.css)
   .about_us_content > h2 {
     font-size: 24px;
   }
