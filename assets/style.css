@@ -734,7 +734,6 @@ ol {
   width: 15vmax;
   display: flex;
   bottom: -1;
-  z-index: -1;
 }
 
 .splash {
@@ -746,7 +745,6 @@ ol {
   width: 100%;
   left: 0;
   bottom: -1px;
-  z-index: -1;
 }
 
 .hero-shape {
@@ -754,14 +752,14 @@ ol {
   width: 100%;
   left: 0;
   bottom: -1px;
-  z-index: 0;
+  z-index: 1;
 }
 .goodkid > img {
   width: 50%;
   bottom: -1px;
   position: absolute;
-  margin-left: 300px;
-  text-align: center;
+  margin-left: 350px;
+  text-align: center !important;
   justify-content: baseline;
 }
 .welcome-2 {
