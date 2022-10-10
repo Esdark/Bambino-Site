@@ -706,9 +706,13 @@ ol {
 .welcome_area {
   position: relative;
   background-color: #f8bbcc;
-  z-index: 2;
+  z-index: 1;
+  display: flex;
+  align-content: space-around;
 }
-
+.welcome_area .row {
+  flex-grow: 4;
+}
 .welcome-text {
   margin-top: 70px;
   background-image: url(./img/slider2-bg-text.svg);
@@ -753,6 +757,10 @@ ol {
   width: 50%;
   bottom: -1px;
   z-index: -1;
+  flex: content;
+}
+.welcome-2 {
+  align-items: baseline;
 }
 /* ========================
 :: 4.0 Our Service Area CSS 
