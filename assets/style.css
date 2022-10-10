@@ -742,9 +742,11 @@ ol {
 }
 
 .kidgood {
-  position: relative;
-  width: 19vmax;
-  display: flex;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -1px;
+  z-index: -1;
 }
 
 .hero-shape {
