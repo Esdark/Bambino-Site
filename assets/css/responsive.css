@@ -1,9 +1,6 @@
 @media (min-width: 992px) and (max-width: 1199px) {
-    .welcome-text > h1 {
+    .welcome-text > h2 {
         font-size: 48px;
-    }
-    .kidbad-1{
-        width: 50%;
     }
     .newsletter_heading > h2 {
         font-size: 26px;
@@ -42,18 +39,11 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .welcome-text > h1 {
+    .welcome-text > h2 {
         font-size: 44px;
     }
     .welcome-text > p {
         font-size: 15px;
-    }
-    
-    .welcome_area_content{
-        width: 80%;
-    }
-    .kidbad-1{
-        
     }
     .about_us_content > h2 {
         font-size: 24px;
