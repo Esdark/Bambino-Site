@@ -594,7 +594,7 @@ ol {
   transition: all 200ms linear;
 }
 .active:after {
-  position: relative;
+  position: absolute;
   bottom: -2px;
   left: 0;
   width: 100%;
@@ -627,9 +627,9 @@ ol {
     padding-bottom: 15px;
     width: 75%;
     height: 100%;
-    box-shadow: -2px 0px 7px 0px #94d5eb;
-    -moz-box-shadow: -2px 0px 7px 0px #94d5eb;
-    -webkit-box-shadow: -2px 0px 7px 0px #94d5eb;
+    box-shadow: -2px 0px 7px 0px #281931;
+    -moz-box-shadow: -2px 0px 7px 0px #281931;
+    -webkit-box-shadow: -2px 0px 7px 0px #281931;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -657,13 +657,13 @@ ol {
   }
   .header .navbar-toggler {
     border: 1px solid #94d5eb;
-    color: #94d5eb;
+    color: #1b127b;
     font-size: 18px;
     padding: 6px 10px;
   }
   .header .navbar-toggler i {
     font-size: 25px;
-    color: #94d5eb;
+    color: #1b127b;
     line-height: 26px;
   }
   .header .header-menu {
