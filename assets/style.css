@@ -714,11 +714,12 @@ ol {
   flex-grow: 4;
 }
 .welcome-text {
-  margin-top: 70px;
+  margin-top: 150px;
   background-image: url(./img/slider2-bg-text.svg);
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
+  position: relative;
 }
 
 .welcome-text > h1 {
@@ -756,11 +757,16 @@ ol {
 .goodkid > img {
   width: 50%;
   bottom: -1px;
-  z-index: -1;
-  flex: content;
+  position: absolute;
+  margin-left: 300px;
+  text-align: center;
+  justify-content: baseline;
 }
 .welcome-2 {
   align-items: baseline;
+}
+.kidbad-2 {
+  margin-left: 190px;
 }
 /* ========================
 :: 4.0 Our Service Area CSS 
