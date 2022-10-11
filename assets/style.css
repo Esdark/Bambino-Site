@@ -710,6 +710,7 @@ ol {
   z-index: 1;
   display: flex;
   align-content: space-around;
+  padding-bottom: 45px;
 }
 .welcome-2 {
   padding-top: 50px;
@@ -734,8 +735,8 @@ ol {
   font-weight: 800;
 }
 .kidbad {
-  padding-top: 50px;
-  width: 12vmax;
+  padding-top: 25px;
+  width: 10vmax;
   bottom: -1;
   float: left;
 }
@@ -772,14 +773,19 @@ ol {
 .kidbad-2 {
   margin-left: 190px;
 }
-#contanerr {
-  perspective: 30px;
+#containers {
+  /* This will come into play later */
+  perspective: 40px;
 }
-#inner {
+
+#inners {
   transition: transform 0.5s;
   -webkit-transition: transform 0.5s;
 }
 
+#containers:hover {
+  cursor: pointer;
+}
 /* ========================
 :: 4.0 Our Service Area CSS 
 ===================== */

@@ -1,7 +1,12 @@
+// ===========================================================
+// See tutorial at :
+// https://css-tricks.com/animate-a-containers-on-mouse-over-using-perspective-and-transform/
+// ===========================================================
+
 (function () {
   // Init
-  var container = document.getElementById("container"),
-    inner = document.getElementById("inner");
+  var containers = document.getElementById("containers"),
+    inners = document.getElementById("inners");
 
   // Mouse
   var mouse = {
@@ -23,25 +28,25 @@
     },
   };
 
-  // Track the mouse position relative to the center of the container.
-  mouse.setOrigin(container);
+  // Track the mouse position relative to the center of the containers.
+  mouse.setOrigin(containers);
 
-  //-----------------------------------------
+  //----------------------------------------------------
 
   var counter = 0;
-  var updateRate = 10;
+  var refreshRate = 10;
   var isTimeToUpdate = function () {
-    return counter++ % updateRate === 0;
+    return counter++ % refreshRate === 0;
   };
 
-  //-----------------------------------------
+  //----------------------------------------------------
 
   var onMouseEnterHandler = function (event) {
     update(event);
   };
 
   var onMouseLeaveHandler = function () {
-    inner.style = "";
+    inners.style = "";
   };
 
   var onMouseMoveHandler = function (event) {
@@ -50,28 +55,28 @@
     }
   };
 
-  //-----------------------------------------
+  //----------------------------------------------------
 
   var update = function (event) {
     mouse.updatePosition(event);
     updateTransformStyle(
-      (mouse.y / inner.offsetHeight / 2).toFixed(2),
-      (mouse.x / inner.offsetWidth / 2).toFixed(2)
+      (mouse.y / inners.offsetHeight / 2).toFixed(2),
+      (mouse.x / inners.offsetWidth / 2).toFixed(2)
     );
   };
 
   var updateTransformStyle = function (x, y) {
     var style = "rotateX(" + x + "deg) rotateY(" + y + "deg)";
-    inner.style.transform = style;
-    inner.style.webkitTransform = style;
-    inner.style.mozTransform = style;
-    inner.style.msTransform = style;
-    inner.style.oTransform = style;
+    inners.style.transform = style;
+    inners.style.webkitTransform = style;
+    inners.style.mozTranform = style;
+    inners.style.msTransform = style;
+    inners.style.oTransform = style;
   };
 
-  //-----------------------------------------
+  //--------------------------------------------------------
 
-  container.onmouseenter = onMouseEnterHandler;
-  container.onmouseleave = onMouseLeaveHandler;
-  container.onmousemove = onMouseMoveHandler;
+  containers.onmousemove = onMouseMoveHandler;
+  containers.onmouseleave = onMouseLeaveHandler;
+  containers.onmouseenter = onMouseEnterHandler;
 })();
