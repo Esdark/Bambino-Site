@@ -3,28 +3,28 @@
     width: 100%;
   }
   .welcome_area .kidbad {
-    position: relative;
-    width: 19vmax;
+    position: absolute;
+    width: 12vmax;
     float: left;
   }
   .welcome-text {
-    position: relative;
+    position: absolute;
     left: -90px;
+    top: -10px;
   }
   .welcome-text > h1 {
-    font-size: 48px;
+    font-size: 44px;
     line-height: 1.7;
     text-align: center;
   }
   .goodkid {
-    position: relative;
+    position: absolute;
     width: 35vmax;
-    display: flex;
   }
   .kidbad-2 {
-    position: relative;
+    position: absolute;
     width: 20vmax;
-    left: -50px;
+    float: right;
   }
   .newsletter_heading > h2 {
     font-size: 26px;
@@ -65,15 +65,20 @@
 @media (min-width: 768px) and (max-width: 991px) {
   .welcome_area {
     width: 100%;
+    display: flex;
   }
   .welcome_area .kidbad {
-    position: relative;
+    position: absolute;
     width: 19vmax;
     float: left;
   }
+  .splash {
+    left: -50px;
+  }
   .welcome-text {
-    left: -250px;
-    position: relative;
+    position: absolute;
+    left: -200px;
+    top: -10px;
   }
   .welcome-text > h1 {
     font-size: 55px;
@@ -81,9 +86,9 @@
     text-align: center;
   }
   .goodkid {
-    position: absolute;
-    width: 50vmax;
-    display: flex;
+    position: relative;
+    width: 35vmax;
+    z-index: 0;
   }
   .kidbad-2 {
     display: none;
@@ -169,13 +174,13 @@
   .welcome_area .kidbad {
     display: none;
   }
-  .welcome-text {
-    margin-top: 50px;
-  }
   .welcome-text > h1 {
-    font-size: 55px;
+    font-size: 30px;
     line-height: 1.7;
     text-align: center;
+  }
+  .splash {
+    left: 40px;
   }
   .goodkid {
     display: none;
@@ -334,8 +339,8 @@
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
-  .welcome-text > h2 {
-    font-size: 36px;
+  .welcome-text > h1 {
+    font-size: 45px;
   }
   .about_us_thumb_2 {
     width: 300px;
@@ -346,8 +351,8 @@
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-  .welcome-text > h2 {
-    font-size: 38px;
+  .welcome-text > h1 {
+    font-size: 48px;
   }
   .section-heading > h2 {
     font-size: 30px;
