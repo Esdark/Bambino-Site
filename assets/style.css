@@ -711,30 +711,33 @@ ol {
   display: flex;
   align-content: space-around;
 }
-.welcome_area .row {
-  flex-grow: 4;
+.welcome-2 {
+  padding-top: 50px;
+  font-family: Sensei, sans-serif;
+}
+.splash {
+  position: absolute;
+  z-index: -1;
 }
 .welcome-text {
-  margin-top: 150px;
-  background-image: url(./img/slider2-bg-text.svg);
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: relative;
+  position: absolute;
+  top: 60px;
+  z-index: 0;
+  align-items: baseline;
+  padding-left: 40px;
 }
-
 .welcome-text > h1 {
-  color: #fff;
-  font-size: 66px;
-  margin-bottom: 20px;
-  font-weight: 600;
+  padding-top: 80px;
+  color: #fade3d;
+  font-size: 60px;
+  margin-bottom: 10px;
+  font-weight: 800;
 }
 .kidbad {
   padding-top: 50px;
-  position: relative;
-  width: 15vmax;
-  display: flex;
+  width: 12vmax;
   bottom: -1;
+  float: left;
 }
 
 .splash {
@@ -759,7 +762,7 @@ ol {
   width: 50%;
   bottom: -1px;
   position: absolute;
-  margin-left: 350px;
+  margin-left: 300px;
   text-align: center !important;
   justify-content: baseline;
 }
@@ -769,32 +772,12 @@ ol {
 .kidbad-2 {
   margin-left: 190px;
 }
-
-.welcome_area:hover {
-  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
-  transform: translate3d(0, 0, 0);
-  perspective: 1000px;
+#contanerr {
+  perspective: 30px;
 }
-
-@keyframes shake {
-  10%,
-  90% {
-    transform: translate3d(-1px, 0, 0);
-  }
-  20%,
-  80% {
-    transform: translate3d(2px, 0, 0);
-  }
-
-  30%,
-  50%,
-  70% {
-    transform: translate3d(-2px, 0, 0);
-  }
-  40%,
-  60% {
-    transform: translate3d(2px, 0, 0);
-  }
+#inner {
+  transition: transform 0.5s;
+  -webkit-transition: transform 0.5s;
 }
 
 /* ========================
