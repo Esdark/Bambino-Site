@@ -1290,6 +1290,7 @@ ol {
   padding-right: 15px;
   padding-left: 15px;
   margin: auto;
+  align-items: baseline;
 }
 
 /* Start Landing Page */
@@ -1299,44 +1300,6 @@ ol {
   background-color: #fff;
 }
 
-.landing-page .header-area {
-  display: flex;
-  padding: 25px 0 0;
-  position: relative;
-}
-
-.landing-page .header-area .logo {
-  text-transform: uppercase;
-  font-style: italic;
-  margin-top: 10px;
-  font-size: 19px;
-  width: 300px;
-  color: #5d5d5d;
-}
-
-.landing-page .header-area .links {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  text-align: right;
-}
-
-.landing-page .header-area .links li {
-  display: inline-block;
-  margin-left: 30px;
-  color: #5d5d5d;
-  cursor: pointer;
-}
-
-.landing-page .header-area .links li:last-child {
-  border: 0;
-  border-radius: 20px;
-  padding: 10px 18px;
-  color: #fff;
-  background-color: #6c63ff;
-}
-
 .landing-page .info {
   width: 35%;
   float: left;
@@ -1344,17 +1307,10 @@ ol {
 }
 
 .landing-page .info h1 {
-  font-size: 44px;
+  font-size: 45px;
   margin: 0 0 20px;
   line-height: 1.4;
-  color: #5d5d5d;
-}
-
-.landing-page .info p {
-  margin: 0;
-  line-height: 1.6;
-  font-size: 15px;
-  color: #5d5d5d;
+  color: #f8bbcc;
 }
 
 .landing-page .info button {
@@ -1364,7 +1320,13 @@ ol {
   margin-top: 30px;
   cursor: pointer;
   color: #fff;
-  background-color: #6c63ff;
+  background-color: #94d5eb;
+}
+.landing-page .info button a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 1.2;
 }
 
 .landing-page .image {
@@ -1379,5 +1341,12 @@ ol {
 
 .clearfix {
   clear: both;
+}
+
+.landing-page .image2 {
+  width: 100%;
+  margin-top: 35px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 /***** End Funzone *****/
