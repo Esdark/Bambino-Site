@@ -174,10 +174,14 @@
   .welcome_area .kidbad {
     display: none;
   }
+  #welcome {
+    padding-right: 50px;
+  }
   .welcome-text > h1 {
     font-size: 30px;
     line-height: 1.7;
     text-align: center;
+    padding-top: -80px !important;
   }
   .splash {
     left: 40px;
@@ -335,6 +339,24 @@
   }
   .side_iamge {
     opacity: 0.2;
+  }
+  .info > h1 {
+    font-size: 35px !important;
+  }
+}
+@media (min-width: 425px) and (max-width: 767px) {
+  #welcome {
+    text-align: center;
+    padding-right: 50px;
+  }
+  .welcome-text > h1 {
+    font-size: 40px;
+  }
+  .about_us_thumb_2 {
+    width: 300px;
+  }
+  .section-heading > h2 {
+    font-size: 28px;
   }
 }
 
