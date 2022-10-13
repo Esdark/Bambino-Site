@@ -574,3 +574,73 @@
   }
 }
 /***** End iphone 11 pro *****/
+
+/***** iphone12 *****/
+@media (min-width: 389px) and (max-width: 390px) {
+  .welcome_area {
+    width: 100%;
+  }
+  .welcome_area .kidbad {
+    display: none;
+  }
+  .welcome-text > h1 {
+    font-size: 35px;
+    line-height: 1.7;
+    text-align: center;
+  }
+  .splash {
+    left: 40px;
+  }
+  .goodkid {
+    position: absolute;
+    float: left;
+    width: 29vmax;
+    left: -65px;
+    z-index: -1;
+  }
+  .kidbad-2 {
+    display: none;
+  }
+}
+/***** iphone12 *****/
+
+/***** Laptop 1360x1366 *****/
+@media (min-width: 1360px) and (max-width: 1366px) {
+  .welcome_area {
+    width: 100%;
+  }
+  .welcome_area .kidbad {
+    position: absolute;
+    width: 12vmax;
+    float: right;
+    top: 13px;
+  }
+  .splash {
+    left: -40px;
+  }
+  .welcome-text {
+    position: absolute;
+    left: -135px;
+    top: 50px;
+  }
+  .welcome-text > h1 {
+    font-size: 45px;
+    line-height: 1.7;
+    text-align: center;
+  }
+  .goodkid {
+    position: absolute;
+    float: right;
+    width: 28vmax;
+    left: 80px;
+    z-index: -1;
+  }
+  .kidbad-2 {
+    position: absolute;
+    width: 20vmax;
+    float: right;
+    top: 10px;
+  }
+}
+
+/***** End Laptop 1360x1366 *****/
