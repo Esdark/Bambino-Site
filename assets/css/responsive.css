@@ -5,12 +5,16 @@
   .welcome_area .kidbad {
     position: absolute;
     width: 12vmax;
-    float: left;
+    float: right;
+    top: 13px;
+  }
+  .splash {
+    left: -40px;
   }
   .welcome-text {
     position: absolute;
-    left: -90px;
-    top: -10px;
+    left: -135px;
+    top: 20px;
   }
   .welcome-text > h1 {
     font-size: 44px;
@@ -19,12 +23,15 @@
   }
   .goodkid {
     position: absolute;
-    width: 35vmax;
+    float: right;
+    width: 30vmax;
+    z-index: -1;
   }
   .kidbad-2 {
     position: absolute;
     width: 20vmax;
     float: right;
+    top: 10px;
   }
   .newsletter_heading > h2 {
     font-size: 26px;
@@ -69,26 +76,28 @@
   }
   .welcome_area .kidbad {
     position: absolute;
-    width: 19vmax;
+    width: 20vmax;
     float: left;
   }
   .splash {
-    left: -50px;
+    left: -120px;
   }
   .welcome-text {
     position: absolute;
-    left: -200px;
-    top: -10px;
+    left: -280px;
+    top: 35px;
   }
   .welcome-text > h1 {
     font-size: 55px;
-    line-height: 1.7;
+    line-height: 1.5;
     text-align: center;
   }
   .goodkid {
-    position: relative;
+    position: absolute;
+    float: right;
     width: 35vmax;
-    z-index: 0;
+    left: 150px;
+    z-index: -1;
   }
   .kidbad-2 {
     display: none;
@@ -187,7 +196,11 @@
     left: 40px;
   }
   .goodkid {
-    display: none;
+    position: absolute;
+    float: left;
+    width: 20vmax;
+    left: -100px;
+    z-index: -1;
   }
   .kidbad-2 {
     display: none;
@@ -349,6 +362,13 @@
     text-align: center;
     padding-right: 50px;
   }
+  .goodkid {
+    position: absolute;
+    float: left;
+    width: 30vmax;
+    left: -170px;
+    z-index: -1;
+  }
   .welcome-text > h1 {
     font-size: 40px;
   }
@@ -364,6 +384,12 @@
   .welcome-text > h1 {
     font-size: 45px;
   }
+  .goodkid {
+    position: absolute;
+    float: left;
+    width: 25vmax;
+    left: -70px;
+  }
   .about_us_thumb_2 {
     width: 300px;
   }
@@ -376,6 +402,12 @@
   .welcome-text > h1 {
     font-size: 48px;
   }
+  .goodkid {
+    position: absolute;
+    float: left;
+    width: 30vmax;
+    left: -50px;
+  }
   .section-heading > h2 {
     font-size: 30px;
   }
@@ -387,5 +419,99 @@
   }
   .newsletter_heading > h2 {
     font-size: 28px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 360px) {
+  .welcome_area {
+    width: 100%;
+  }
+  .welcome_area .kidbad {
+    display: none;
+  }
+  .welcome-text > h1 {
+    font-size: 20px;
+    line-height: 1.7;
+    text-align: center;
+    margin-right: 50px;
+  }
+  .splash {
+    left: 40px;
+    width: 80%;
+    top: 20px;
+  }
+  .goodkid {
+    position: absolute;
+    float: left;
+    width: 29vmax;
+    left: -140px;
+    z-index: -1;
+  }
+  .kidbad-2 {
+    display: none;
+  }
+}
+
+@media (min-width: 1023px) and (max-width: 1024px) {
+  .welcome_area {
+    width: 100%;
+  }
+  .welcome_area .kidbad {
+    position: absolute;
+    width: 12vmax;
+    float: right;
+    top: 13px;
+  }
+  .splash {
+    left: -40px;
+  }
+  .welcome-text {
+    position: absolute;
+    left: -135px;
+    top: 20px;
+  }
+  .welcome-text > h1 {
+    font-size: 44px;
+    line-height: 1.7;
+    text-align: center;
+  }
+  .goodkid {
+    position: absolute;
+    float: right;
+    width: 30vmax;
+    z-index: -1;
+  }
+  .kidbad-2 {
+    position: absolute;
+    width: 20vmax;
+    float: right;
+    top: 10px;
+  }
+}
+
+@media (min-width: 374px) and (max-width: 375px) {
+  .welcome_area {
+    width: 100%;
+  }
+  .welcome_area .kidbad {
+    display: none;
+  }
+  .welcome-text > h1 {
+    font-size: 35px;
+    line-height: 1.7;
+    text-align: center;
+  }
+  .splash {
+    left: 40px;
+  }
+  .goodkid {
+    position: absolute;
+    float: left;
+    width: 29vmax;
+    left: -60px;
+    z-index: -1;
+  }
+  .kidbad-2 {
+    display: none;
   }
 }
