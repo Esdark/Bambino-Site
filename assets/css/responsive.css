@@ -423,6 +423,11 @@
 }
 
 @media (min-width: 320px) and (max-width: 360px) {
+  .bookus {
+    position: absolute;
+    width: 50%;
+    left: 100px;
+  }
   .welcome_area {
     width: 100%;
   }
@@ -479,6 +484,7 @@
     position: absolute;
     float: right;
     width: 30vmax;
+    right: 30;
     z-index: -1;
   }
   .kidbad-2 {
@@ -518,6 +524,10 @@
 
 /***** Iphone 11 *****/
 @media (min-width: 413px) and (max-width: 414px) {
+  .bookus {
+    position: absolute;
+    left: 125px;
+  }
   .welcome_area {
     width: 100%;
   }
@@ -548,6 +558,10 @@
 
 /***** iphone 11 pro *****/
 @media (min-width: 374px) and (max-width: 375px) {
+  .bookus {
+    position: absolute;
+    left: 110px;
+  }
   .welcome_area {
     width: 100%;
   }
@@ -577,6 +591,10 @@
 
 /***** iphone12 *****/
 @media (min-width: 389px) and (max-width: 390px) {
+  .bookus {
+    position: absolute;
+    left: 110px;
+  }
   .welcome_area {
     width: 100%;
   }
@@ -603,6 +621,43 @@
   }
 }
 /***** iphone12 *****/
+
+/***** 12 pro max *****/
+@media (min-width: 427px) and (max-width: 428px) {
+  .bookus {
+    position: absolute;
+    left: 120px;
+  }
+  .welcome_area {
+    width: 100%;
+  }
+  .welcome_area .kidbad {
+    position: absolute;
+    width: 29vmax;
+    z-index: -1;
+  }
+  .welcome-text > h1 {
+    font-size: 35px;
+    line-height: 1.7;
+    text-align: center;
+  }
+  .splash {
+    left: 40px;
+  }
+  .goodkid {
+    position: absolute;
+    float: left;
+    width: 29vmax;
+    left: -160px;
+    z-index: -1;
+  }
+  .kidbad-2 {
+    position: absolute;
+    width: 29vmax;
+    z-index: -1;
+  }
+}
+/***** End 12 pro max*****/
 
 /***** Laptop 1360x1366 *****/
 @media (min-width: 1360px) and (max-width: 1366px) {
