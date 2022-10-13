@@ -515,3 +515,62 @@
     display: none;
   }
 }
+
+/***** Iphone 11 *****/
+@media (min-width: 413px) and (max-width: 414px) {
+  .welcome_area {
+    width: 100%;
+  }
+  .welcome_area .kidbad {
+    display: none;
+  }
+  .welcome-text > h1 {
+    font-size: 35px;
+    line-height: 1.7;
+    text-align: center;
+  }
+  .splash {
+    left: 40px;
+  }
+  .goodkid {
+    position: absolute;
+    float: left;
+    width: 29vmax;
+    left: -60px;
+    z-index: -1;
+  }
+  .kidbad-2 {
+    display: none;
+  }
+}
+
+/***** End Iphone 11 *****/
+
+/***** iphone 11 pro *****/
+@media (min-width: 374px) and (max-width: 375px) {
+  .welcome_area {
+    width: 100%;
+  }
+  .welcome_area .kidbad {
+    display: none;
+  }
+  .welcome-text > h1 {
+    font-size: 35px;
+    line-height: 1.7;
+    text-align: center;
+  }
+  .splash {
+    left: 40px;
+  }
+  .goodkid {
+    position: absolute;
+    float: left;
+    width: 29vmax;
+    left: -100px;
+    z-index: -1;
+  }
+  .kidbad-2 {
+    display: none;
+  }
+}
+/***** End iphone 11 pro *****/
