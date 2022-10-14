@@ -797,7 +797,7 @@ ol {
   display: flex;
   margin-bottom: 50px;
   font-family: "Roboto Slab", serif;
-  justify-content: center !important;
+  justify-content: baseline !important;
 }
 
 .service_icon {
@@ -846,7 +846,7 @@ ol {
   margin-left: 30px;
 }
 .service_text > img {
-  width: 100%;
+  width: 300px;
 }
 .single_service_content:hover .service_icon {
   background-color: #94d5eb;
@@ -859,6 +859,9 @@ ol {
 
 .single_service_content:hover .service_text > h5 {
   color: #94d5eb;
+}
+.manicure {
+  text-align: center;
 }
 
 /* ========================
