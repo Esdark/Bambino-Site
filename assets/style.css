@@ -837,11 +837,46 @@ ol {
   text-align: center;
 }
 
-.service_text > p {
-  margin-bottom: 0;
-  font-size: 14px;
+.service_text > h2 {
+  font-weight: 700;
+  margin-bottom: 20px;
+  -webkit-transition-duration: 700ms;
+  -o-transition-duration: 700ms;
+  transition-duration: 700ms;
+  text-align: center;
+}
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #f8bbcc;
 }
 
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #94d5eb;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.service_text h2 span {
+  color: #94d5eb;
+  font-weight: 800;
+  margin-bottom: 20px;
+  -webkit-transition-duration: 700ms;
+  -o-transition-duration: 700ms;
+  transition-duration: 700ms;
+  text-align: center;
+}
 .service_text {
   margin-left: 30px;
 }
@@ -862,6 +897,12 @@ ol {
 }
 .manicure {
   text-align: center;
+}
+
+.special {
+  font-family: "Brush Script MT", cursive;
+  font-weight: 800;
+  color: #f8bbcc;
 }
 
 /* ========================
