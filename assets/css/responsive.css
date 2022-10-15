@@ -356,6 +356,10 @@
   .info > h1 {
     font-size: 35px !important;
   }
+  .service_text > img {
+    width: 50%;
+    margin: 70px;
+  }
 }
 @media (min-width: 425px) and (max-width: 767px) {
   #welcome {
@@ -782,3 +786,20 @@
 
 /***** 992 to 1155 *****/
 /***** End 992 to 1155 *****/
+/***** 429 to 259 *****/
+@media (min-width: 429px) and (max-width: 458px) {
+  .bookus {
+    position: absolute;
+    left: 120px;
+  }
+}
+/***** End 429 to 259 *****/
+
+/***** 429 to 412*****/
+@media (min-width: 391px) and (max-width: 412px) {
+  .bookus {
+    position: absolute;
+    left: 120px;
+  }
+}
+/***** End 429 to 259 *****/

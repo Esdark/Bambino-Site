@@ -658,13 +658,13 @@ ol {
   }
   .header .navbar-toggler {
     border: 1px solid #94d5eb;
-    color: #1b127b;
+    color: #f8bbcc;
     font-size: 18px;
     padding: 6px 10px;
   }
   .header .navbar-toggler i {
     font-size: 25px;
-    color: #1b127b;
+    color: #f8bbcc;
     line-height: 26px;
   }
   .header .header-menu {
@@ -849,7 +849,7 @@ ol {
 .hover-underline-animation {
   display: inline-block;
   position: relative;
-  color: #f8bbcc;
+  color: #94d5eb;
 }
 
 .hover-underline-animation:after {
@@ -900,7 +900,7 @@ ol {
 .special {
   font-family: "Brush Script MT", cursive;
   font-weight: 800;
-  color: #f8bbcc;
+  color: #94d5eb;
 }
 .newborn {
   justify-content: first baseline;
