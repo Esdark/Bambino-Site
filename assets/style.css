@@ -837,7 +837,7 @@ ol {
   text-align: center;
 }
 
-.service_text > h2 {
+.service_text > h3 {
   font-weight: 700;
   margin-bottom: 20px;
   -webkit-transition-duration: 700ms;
@@ -868,7 +868,7 @@ ol {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-.service_text h2 span {
+.service_text h3 span {
   color: #94d5eb;
   font-weight: 800;
   margin-bottom: 20px;
@@ -903,6 +903,9 @@ ol {
   font-family: "Brush Script MT", cursive;
   font-weight: 800;
   color: #f8bbcc;
+}
+.newborn {
+  justify-content: first baseline;
 }
 
 /* ========================
