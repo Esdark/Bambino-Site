@@ -179,9 +179,12 @@
   }
   .welcome_area {
     width: 100%;
+    height: 500px;
   }
   .welcome_area .kidbad {
-    display: none;
+    position: absolute;
+    float: left;
+    top: 150px;
   }
   #welcome {
     padding-right: 50px;
@@ -358,17 +361,30 @@
     opacity: 0.2;
   }
   .info > h1 {
-    font-size: 35px !important;
+    font-size: 20px !important;
+  }
+  .info > button {
+    text-align: center;
+    position: relative;
+    left: 100px;
   }
   .service_text > img {
-    width: 50%;
-    margin: 70px;
+    padding: 100px;
+  }
+  .modal-backdrop {
+    --bs-backdrop-zindex: 0 !important;
+    --bs-backdrop-bg: none !important;
   }
 }
 @media (min-width: 425px) and (max-width: 767px) {
   #welcome {
     text-align: center;
     padding-right: 50px;
+  }
+  .welcome_area .kidbad {
+    position: absolute;
+    float: left;
+    top: 150px;
   }
   .goodkid {
     position: absolute;
@@ -392,6 +408,11 @@
   .welcome-text > h1 {
     font-size: 45px;
   }
+  .welcome_area .kidbad {
+    position: absolute;
+    float: left;
+    top: 150px;
+  }
   .goodkid {
     position: absolute;
     float: left;
@@ -409,6 +430,11 @@
 @media (min-width: 576px) and (max-width: 767px) {
   .welcome-text > h1 {
     font-size: 48px;
+  }
+  .welcome_area .kidbad {
+    position: absolute;
+    float: left;
+    top: 150px;
   }
   .goodkid {
     position: absolute;
@@ -440,7 +466,9 @@
     width: 100%;
   }
   .welcome_area .kidbad {
-    display: none;
+    position: absolute;
+    float: left;
+    top: 150px;
   }
   .welcome-text > h1 {
     font-size: 20px;
@@ -508,7 +536,9 @@
     width: 100%;
   }
   .welcome_area .kidbad {
-    display: none;
+    position: absolute;
+    float: left;
+    top: 150px;
   }
   .welcome-text > h1 {
     font-size: 35px;
@@ -540,7 +570,9 @@
     width: 100%;
   }
   .welcome_area .kidbad {
-    display: none;
+    position: absolute;
+    float: left;
+    top: 150px;
   }
   .welcome-text > h1 {
     font-size: 35px;
@@ -574,7 +606,9 @@
     width: 100%;
   }
   .welcome_area .kidbad {
-    display: none;
+    position: absolute;
+    float: left;
+    top: 150px;
   }
   .welcome-text > h1 {
     font-size: 35px;
@@ -607,7 +641,9 @@
     width: 100%;
   }
   .welcome_area .kidbad {
-    display: none;
+    position: absolute;
+    float: left;
+    top: 150px;
   }
   .welcome-text > h1 {
     font-size: 35px;
@@ -660,9 +696,7 @@
     z-index: -1;
   }
   .kidbad-2 {
-    position: absolute;
-    width: 29vmax;
-    z-index: -1;
+    display: none;
   }
 }
 /***** End 12 pro max*****/
@@ -789,6 +823,45 @@
 /***** End upto 1399 *****/
 
 /***** 992 to 1155 *****/
+
+@media (min-width: 992px) and (max-width: 1155px) {
+  .welcome_area {
+    width: 100%;
+  }
+  .welcome_area .kidbad {
+    position: absolute;
+    width: 12vmax;
+    float: right;
+    top: 13px;
+  }
+  .splash {
+    left: -40px;
+  }
+  .welcome-text {
+    position: absolute;
+    left: -135px;
+    top: 30px;
+  }
+  .welcome-text > h1 {
+    font-size: 45px;
+    line-height: 1.7;
+    text-align: center;
+  }
+  .goodkid {
+    position: absolute;
+    float: right;
+    width: 35vmax;
+    left: 80px;
+    z-index: -1;
+  }
+  .kidbad-2 {
+    position: absolute;
+    width: 20vmax;
+    float: right;
+    top: 30px;
+  }
+}
+
 /***** End 992 to 1155 *****/
 /***** 429 to 259 *****/
 @media (min-width: 429px) and (max-width: 458px) {
@@ -807,3 +880,103 @@
   }
 }
 /***** End 429 to 259 *****/
+
+/***** 320 to 345 *****/
+@media (min-width: 320px) and (max-width: 345px) {
+  .bookus {
+    position: relative;
+    left: 30px;
+    width: 50%;
+  }
+}
+/***** End 320 to 345 *****/
+
+/***** 361 to 373 *****/
+@media (min-width: 361px) and (max-width: 373px) {
+  .bookus {
+    position: absolute;
+    left: 110px;
+  }
+}
+/***** End 361 to 373 *****/
+/***** 376 to 388 *****/
+@media (min-width: 376px) and (max-width: 388px) {
+  .bookus {
+    position: absolute;
+    left: 110px;
+  }
+}
+/***** End 376 to 388 *****/
+
+/***** 415 to 426 *****/
+@media (min-width: 415px) and (max-width: 426px) {
+  .bookus {
+    position: absolute;
+    left: 130px;
+  }
+}
+/***** End 415 to 426 *****/
+
+/***** 280 to 319 *****/
+@media (min-width: 280px) and (max-width: 319px) {
+  .bookus {
+    position: relative;
+    width: 50%;
+    left: 10px;
+  }
+  .welcome_area {
+    width: 100%;
+    height: 400px;
+  }
+  .welcome_area .kidbad {
+    position: absolute;
+    float: left;
+    top: 100px;
+  }
+  .welcome-text {
+    top: 25px;
+  }
+  .welcome-text > h1 {
+    font-size: 23px;
+    line-height: 1.7;
+    text-align: center;
+    margin-right: 50px;
+  }
+  .splash {
+    left: 40px;
+    width: 80%;
+  }
+  .goodkid {
+    position: absolute;
+    float: left;
+    width: 20vmax;
+    left: -140px;
+    z-index: -1;
+  }
+  .kidbad-2 {
+    display: none;
+  }
+  .section-heading > span {
+    font-size: 30px;
+    padding-top: 20px;
+  }
+  .info > h1 {
+    font-size: 15px !important;
+  }
+  .info > button {
+    text-align: center;
+    position: relative;
+    left: 55px;
+  }
+  .service_text > img {
+    padding: 50px;
+  }
+  .modal-backdrop {
+    --bs-backdrop-zindex: 0 !important;
+    --bs-backdrop-bg: none !important;
+  }
+  .image > img {
+    padding-top: 50px;
+  }
+}
+/***** End 280 to 319 *****/
