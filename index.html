@@ -159,24 +159,65 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                           </div>
                           <div class="modal-body">
-                            <form action="https://script.google.com/macros/s/AKfycbygcHIZSEt697NpEiTizG8-DjojZEZnnGWNfh1anyqo0tVijhabpNyMQrtPx-D8chxw/exec"
+                            <form
+                            action="https://script.google.com/macros/s/AKfycbygcHIZSEt697NpEiTizG8-DjojZEZnnGWNfh1anyqo0tVijhabpNyMQrtPx-D8chxw/exec"
                             method="post"
                             id="main_contact_form"
                             data-netlify="true"
-                            name="contact">
-                              <div class="mb-3">
-                                <label for="name" class="col-form-label">Name:</label>
-                                <input type="text" class="form-control" id="name" />
+                            name="contact"
+                          >
+                            <div class="contact_input_area">
+                              <div id="success_fail_info"></div>
+                              <div class="row">
+                                <div class="col-12">
+                                  <div class="conatct_heading">
+                                    <h2>Drop Line Here</h2>
+                                  </div>
+                                </div>
+                                <!-- Form Group -->
+                                <div class="col-12 col-md-6">
+                                  <div class="form-group">
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      name="name"
+                                      id="name"
+                                      placeholder="Your Name"
+                                      required
+                                    />
+                                  </div>
+                                </div>
+                                <!-- Form Group -->
+                                <div class="col-12 col-md-6">
+                                  <div class="form-group">
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      name="number"
+                                      id="number"
+                                      placeholder="Number *"
+                                      required
+                                    />
+                                  </div>
+                                </div>
+                                <!-- Button -->
+                                <div class="col-12">
+                                  <button
+                                    type="submit"
+                                    class="fancy-btn"
+                                    value="SEND"
+                                    id="submit"
+                                  >
+                                    Send Now
+                                  </button>
+                                </div>
                               </div>
-                              <div class="mb-3">
-                                <label for="Number" class="col-form-label">Number:</label>
-                                <input class="form-control" id="Number"></input>
-                              </div>
-                            </form>
+                            </div>
+                          </form>
                           </div>
                           <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="submit" class="btn btn-primary" value="SEND" id="submit">Send message</button>
+                            
                           </div>
                         </div>
                       </div>
