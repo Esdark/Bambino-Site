@@ -946,6 +946,10 @@ ol {
   transform: translateY(-50%);
 }
 
+.about_us_content > h1 {
+  color: #f8bbcc;
+}
+
 .about_us_content > h2 {
   font-size: 30px;
   margin-bottom: 25px;
