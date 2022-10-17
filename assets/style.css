@@ -784,18 +784,6 @@ ol {
   transition-duration: 700ms;
 }
 
-.service_icon > i {
-  font-size: 30px;
-  color: #f8bbcc;
-  -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  line-height: 68px;
-  -webkit-transition-duration: 700ms;
-  -o-transition-duration: 700ms;
-  transition-duration: 700ms;
-}
-
 .service_text > h5 {
   font-weight: 600;
   margin-bottom: 20px;
@@ -850,6 +838,7 @@ ol {
 }
 .service_text > img {
   width: 300px;
+  padding: 50px;
 }
 .single_service_content:hover .service_icon {
   background-color: #94d5eb;
@@ -1120,178 +1109,6 @@ ol {
 
 .footer_social_icon > a > i:hover {
   background-color: #f8bbcc;
-}
-
-/* ==========================
-:: 16.0 How We Works Area CSS 
-======================== */
-
-.how_we_work_details {
-  background-color: #94d5eb;
-  padding: 100px 40px;
-}
-
-.how_we_heading {
-  margin-bottom: 80px;
-}
-
-.how_we_heading > h2 {
-  color: #fff;
-  font-size: 30px;
-}
-
-.how_we_heading > p {
-  color: #fff;
-  font-size: 14px;
-  margin-bottom: 0;
-  max-width: 800px;
-}
-
-.how_we_single_content {
-  background-color: #f8bbcc;
-  margin-bottom: 30px;
-  padding: 20px 20px 20px 30px;
-  border-left: 3px solid #f8bbcc;
-}
-
-.how_we_single_content > p {
-  color: #fff;
-  font-size: 14px;
-  margin-bottom: 0;
-}
-
-.how_we_single_content > h5 {
-  color: #fff;
-  font-size: 18px;
-  font-weight: 500;
-}
-
-.how_we_single_content > p {
-  color: #fff;
-  font-size: 14px;
-  margin-bottom: 0;
-}
-
-/* ==========================
-:: 17.0 Work Process Area CSS 
-======================== */
-
-.work_process_area {
-  background-color: #94d5eb !important;
-}
-
-.section-heading.work > h2 {
-  color: #fff;
-}
-
-.work_process_heading {
-  margin-bottom: 80px;
-}
-
-.work_process_single_content.right-fea {
-  padding-right: 60px;
-}
-
-.work_process_single_content {
-  margin-bottom: 30px;
-  position: relative;
-  z-index: 1;
-}
-
-.work_process_single_content {
-  background-color: #4254b5;
-  padding: 30px 40px 30px 60px;
-  -webkit-transition-duration: 700ms;
-  -o-transition-duration: 700ms;
-  transition-duration: 700ms;
-}
-
-.work_process_single_content:hover {
-  background-color: #f8bbcc;
-}
-
-.work_process_single_content > h5 {
-  font-size: 18px;
-  color: #fff;
-  font-weight: 500;
-}
-
-.work_process_single_content > p {
-  color: #fff;
-  font-size: 14px;
-  margin-bottom: 0;
-}
-
-.work_process_icon {
-  position: absolute;
-  content: "";
-  top: 50%;
-  left: -6%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  z-index: 2;
-}
-
-.work_process_icon.right-fea {
-  right: -6%;
-  left: auto;
-}
-
-.work_process_icon > i {
-  color: #fff;
-  font-size: 30px;
-  background-color: #f8bbcc;
-  height: 70px;
-  width: 70px;
-  border-radius: 50%;
-  line-height: 70px;
-  text-align: center;
-}
-
-/* ====================
-:: 18.0 Award Area CSS 
-==================== */
-
-.award_widget {
-  margin-bottom: 50px;
-  text-align: center;
-}
-
-.award_widget > p {
-  font-size: 14px;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
-.award_widget > h5 {
-  text-transform: uppercase;
-  font-size: 18px;
-  margin-bottom: 20px;
-}
-
-.award_widget > a {
-  font-size: 14px;
-  color: #94d5eb;
-  -webkit-transition-duration: 500ms;
-  -o-transition-duration: 500ms;
-  transition-duration: 500ms;
-}
-
-.award_widget > a:hover {
-  color: #111;
-}
-
-.award_thumb {
-  -webkit-transition-duration: 1000ms;
-  -o-transition-duration: 1000ms;
-  transition-duration: 1000ms;
-}
-
-.award_widget:hover .award_thumb {
-  -webkit-transform: rotate(15deg);
-  -ms-transform: rotate(15deg);
-  transform: rotate(15deg);
 }
 
 /***** Funzone *****/
