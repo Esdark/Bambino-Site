@@ -101,9 +101,115 @@
             </ul>
           </div>
           <div class="px-5 bookus">
-            <a class="btn btn-primary" href="tel:+496170961709" role="button"
-              >Book US</a
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              data-bs-whatever="@mdo"
             >
+              BOOK US
+            </button>
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Bambino Booking
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <form
+                      action="https://script.google.com/macros/s/AKfycbygcHIZSEt697NpEiTizG8-DjojZEZnnGWNfh1anyqo0tVijhabpNyMQrtPx-D8chxw/exec"
+                      method="post"
+                      id="main_contact_form"
+                      data-netlify="true"
+                      name="contact"
+                    >
+                      <div class="contact_input_area">
+                        <div id="success_fail_info"></div>
+                        <div class="row">
+                          <div class="col-12">
+                            <div class="conatct_heading">
+                              <h2>Book Your Spot</h2>
+                            </div>
+                          </div>
+                          <!-- Form Group -->
+                          <div class="col-12 col-md-6">
+                            <div class="form-group">
+                              <input
+                                type="text"
+                                class="form-control"
+                                name="name"
+                                id="name"
+                                placeholder="Your Name"
+                                required
+                              />
+                            </div>
+                          </div>
+                          <!-- Form Group -->
+                          <div class="col-12 col-md-6">
+                            <div class="form-group">
+                              <input
+                                type="text"
+                                class="form-control"
+                                name="number"
+                                id="number"
+                                placeholder="Number *"
+                                required
+                              />
+                            </div>
+                          </div>
+                          <!-- Form Group -->
+                          <div class="col-12 col-md-6">
+                            <div class="form-group">
+                              <input
+                                type="datetime-local"
+                                class="form-control"
+                                id="date"
+                                name="date"
+                              />
+                            </div>
+                          </div>
+                          <!-- Button -->
+                          <div class="col-12">
+                            <button
+                              type="submit"
+                              class="fancy-btn"
+                              value="SEND"
+                              id="submit"
+                            >
+                              Send Now
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </nav>
