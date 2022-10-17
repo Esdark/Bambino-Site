@@ -767,7 +767,10 @@ ol {
   font-family: "Rubik", sans-serif !important;
   justify-content: baseline !important;
 }
-
+.iconlogo {
+  width: 100px;
+  padding: 5px;
+}
 .service_text > h5 {
   font-weight: 600;
   margin-bottom: 20px;
