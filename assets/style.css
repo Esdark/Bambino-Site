@@ -1,15 +1,3 @@
-/* [Master Stylesheet] */
-
-/* --------------------------------------------
-:: Template Name: RexPlus - One Page Parallax.
-:: Template Author: Classy-Theme
-:: Template Author URI: https://themeforest.net/user/classy-theme/portfolio.
-:: Description: RexPlus is a one page based Business Template. It's very clean, creative & beautiful. It's super responsive & ultra light.
-:: Tags: Target, Business Template,  Bootstrap 4, HTML Template, HTML5 Template.
-:: Version: v1.0.0
-:: Last Updated: 05/07/2018.
--------------------------------------------- */
-
 /* =========== [Master Stylesheet] ============
 :: 1.0 Base CSS Start
 :: 2.0 Header Area CSS
@@ -32,6 +20,7 @@
 ===================================== */
 
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @import "css/bootstrap/bootstrap.min.css";
 @import "css/plugins/animate.css";
@@ -52,7 +41,7 @@
 }
 
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif !important;
   font-size: 15px;
   background-color: #fff;
   overflow-x: hidden;
@@ -483,31 +472,6 @@ ol {
   z-index: -10;
 }
 
-/* ----- Gradients Color ----- */
-
-.gradients-version .ffff::after {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  content: "";
-  top: 0;
-  left: 0;
-  z-index: -1;
-  background: #6c5ce7;
-  background: -webkit-linear-gradient(to bottom, #6c5ce7, #00b894);
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#6c5ce7),
-    to(#00b894)
-  );
-  background: -webkit-linear-gradient(top, #6c5ce7, #00b894);
-  background: -o-linear-gradient(top, #6c5ce7, #00b894);
-  background: linear-gradient(to bottom, #6c5ce7, #00b894);
-  opacity: 0.9;
-}
-
 .bg-img {
   background-position: center center;
   background-size: cover;
@@ -559,7 +523,7 @@ ol {
 }
 .navbar {
   background-color: #fff !important;
-  font-family: "Catamaran", sans-serif;
+  font-family: "Rubik", sans-serif !important;
 }
 .navbar-brand img {
   width: 100px;
@@ -714,7 +678,7 @@ ol {
 }
 .welcome-2 {
   padding-top: 50px;
-  font-family: Sensei, sans-serif;
+  font-family: "Rubik", sans-serif !important;
 }
 .splash {
   position: absolute;
@@ -728,9 +692,9 @@ ol {
   padding-left: 40px;
 }
 .welcome-text > h1 {
-  padding-top: 55px;
+  padding-top: 80px;
   color: #fade3d;
-  font-size: 60px;
+  font-size: 55px;
   margin-bottom: 10px;
   font-weight: 800;
   z-index: 0;
@@ -800,7 +764,7 @@ ol {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 50px;
-  font-family: "Roboto Slab", serif;
+  font-family: "Rubik", sans-serif !important;
   justify-content: baseline !important;
 }
 
@@ -901,7 +865,7 @@ ol {
 }
 
 .special {
-  font-family: "Brush Script MT", cursive;
+  font-family: "Rubik", sans-serif !important;
   font-weight: 800;
   color: #94d5eb;
 }
