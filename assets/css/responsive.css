@@ -734,13 +734,51 @@
   }
   .kidbad-2 {
     position: absolute;
-    width: 20vmax;
-    float: right;
-    top: 10px;
+    width: 12vmax;
+    right: 22px;
   }
 }
 
 /***** End Laptop 1360x1366 *****/
+/***** 1156 to 1199 *****/
+@media (min-width: 1156px) and (max-width: 1199px) {
+  .welcome_area {
+    width: 100%;
+  }
+  .welcome_area .kidbad {
+    position: absolute;
+    width: 12vmax;
+    float: right;
+    top: 13px;
+  }
+  .splash {
+    left: -40px;
+  }
+  .welcome-text {
+    position: absolute;
+    left: -135px;
+    top: 50px;
+  }
+  .welcome-text > h1 {
+    font-size: 45px;
+    line-height: 1.7;
+    text-align: center;
+  }
+  .goodkid {
+    position: absolute;
+    float: right;
+    width: 28vmax;
+    left: 80px;
+    z-index: -1;
+  }
+  .kidbad-2 {
+    position: absolute;
+    width: 14vmax;
+    right: 5px;
+    top: 12px;
+  }
+}
+/***** End 1156 to 1199 *****/
 
 /***** 1200 to 1369 *****/
 @media (min-width: 1200px) and (max-width: 1360px) {
@@ -775,9 +813,9 @@
   }
   .kidbad-2 {
     position: absolute;
-    width: 20vmax;
-    float: right;
-    top: 10px;
+    width: 14vmax;
+    right: 45px;
+    top: 18px;
   }
 }
 /***** End 1200 to 1369 *****/
@@ -856,9 +894,9 @@
   }
   .kidbad-2 {
     position: absolute;
-    width: 20vmax;
-    float: right;
-    top: 30px;
+    width: 14vmax;
+    right: 1px;
+    top: 18px;
   }
 }
 

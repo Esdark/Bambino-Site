@@ -773,6 +773,9 @@ ol {
 }
 .kidbad-2 {
   margin-left: 190px;
+  position: absolute;
+  width: 65%;
+  bottom: -1px;
 }
 #containers {
   /* This will come into play later */
