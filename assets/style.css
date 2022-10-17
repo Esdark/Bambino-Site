@@ -889,8 +889,11 @@ ol {
 .about_us_content > h1 {
   color: #f8bbcc;
 }
-.specialservice > h1,
-h2 {
+.specialservice > h1 {
+  color: #94d5eb !important;
+}
+
+.specialservice > h2 {
   color: #94d5eb !important;
 }
 
