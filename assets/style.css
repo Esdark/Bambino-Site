@@ -768,22 +768,6 @@ ol {
   justify-content: baseline !important;
 }
 
-.service_icon {
-  height: 70px;
-  border: 1px solid #ddd;
-  width: 70px;
-  text-align: center;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 70px;
-  flex: 0 0 70px;
-  -webkit-transition-duration: 700ms;
-  -o-transition-duration: 700ms;
-  transition-duration: 700ms;
-}
-
 .service_text > h5 {
   font-weight: 600;
   margin-bottom: 20px;
