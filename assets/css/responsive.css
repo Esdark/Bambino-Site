@@ -212,7 +212,8 @@
     display: none;
   }
   .section-heading > span {
-    font-size: 40px;
+    font-size: 30px;
+    top: 50px;
   }
   .portfolio_gallery_iteam {
     width: 100%;
@@ -375,7 +376,7 @@
     left: 100px;
   }
   .service_text > img {
-    padding: 100px;
+    padding: 55px;
   }
   .modal-backdrop {
     --bs-backdrop-zindex: 0 !important;
@@ -683,8 +684,9 @@
   }
   .welcome_area .kidbad {
     position: absolute;
-    width: 29vmax;
-    z-index: -1;
+    top: 150px;
+    z-index: 1000;
+    width: 110px;
   }
   .welcome-text > h1 {
     font-size: 35px;
@@ -727,7 +729,7 @@
     top: 50px;
   }
   .welcome-text > h1 {
-    font-size: 45px;
+    font-size: 50px;
     line-height: 1.7;
     text-align: center;
   }
@@ -806,7 +808,7 @@
     top: 50px;
   }
   .welcome-text > h1 {
-    font-size: 45px;
+    font-size: 50px;
     line-height: 1.7;
     text-align: center;
   }
