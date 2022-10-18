@@ -300,12 +300,6 @@ ol {
   padding-bottom: 50px;
 }
 
-.section-heading > i {
-  font-size: 60px;
-  color: #f8bbcc;
-  margin-bottom: 10px;
-}
-
 .section-heading > h2 {
   font-size: 30px;
   text-transform: capitalize;
@@ -317,8 +311,8 @@ ol {
 }
 
 .section-heading > span {
-  font-size: 60px;
-  color: #19a7e965;
+  font-size: 45px;
+  color: #94d5eb;
   z-index: 2;
   font-weight: 200;
   text-transform: capitalize;
@@ -874,6 +868,7 @@ ol {
   position: relative;
   z-index: 1;
   margin-right: 80px;
+  width: 50%;
 }
 
 .about_us_thumb_2 {
@@ -1157,7 +1152,7 @@ ol {
 }
 
 .landing-page .image img {
-  max-width: 100%;
+  max-width: 70%;
 }
 
 .clearfix {
