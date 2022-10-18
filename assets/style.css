@@ -303,6 +303,7 @@ ol {
 .section-heading > h2 {
   font-size: 30px;
   text-transform: capitalize;
+  color: #f8bbcc;
   display: block;
   font-weight: 600;
   margin-bottom: 0;
@@ -772,6 +773,7 @@ ol {
   -o-transition-duration: 700ms;
   transition-duration: 700ms;
   text-align: center;
+  color: #f8bbcc;
 }
 
 .service_text > h3 {
