@@ -1,11 +1,10 @@
 // Mobile Menu
-
-$(document).ready(function ($) {
-  $(".close-menu").click(function () {
-    $(".header-menu").collapse("show");
-  });
-  $(".navbar-collapse li a").click(function () {
-    $(".navbar-collapse").collapse("hide");
+const navLinks = document.querySelectorAll(".nav-item");
+const menuToggle = document.getElementById("navbarNav");
+const bsCollapse = new bootstrap.Collapse(menuToggle, { toggle: false });
+navLinks.forEach((l) => {
+  l.addEventListener("click", () => {
+    bsCollapse.toggle();
   });
 });
 
