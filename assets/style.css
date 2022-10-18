@@ -894,10 +894,11 @@ ol {
 }
 
 .about_us_content > h2 {
-  font-size: 20px;
+  font-size: 15px;
   margin-bottom: 25px;
   color: #f8bbcc;
   text-align: justify;
+  font-weight: 500 !important;
 }
 
 .about_us_content > p {
