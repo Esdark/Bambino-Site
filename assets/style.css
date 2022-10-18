@@ -883,6 +883,7 @@ ol {
 
 .about_us_content > h1 {
   color: #f8bbcc;
+  font-size: 30px;
 }
 .specialservice > h1 {
   color: #94d5eb !important;
@@ -893,7 +894,7 @@ ol {
 }
 
 .about_us_content > h2 {
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 25px;
   color: #f8bbcc;
 }
