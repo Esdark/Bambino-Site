@@ -1130,6 +1130,12 @@ ol {
   color: #f8bbcc;
 }
 
+.landing-page .info p {
+  font-size: 15px;
+  color: #f8bbcc;
+  font-weight: 500;
+}
+
 .landing-page .info button {
   border: 0;
   border-radius: 20px;
