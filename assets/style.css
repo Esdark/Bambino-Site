@@ -897,6 +897,7 @@ ol {
   font-size: 20px;
   margin-bottom: 25px;
   color: #f8bbcc;
+  text-align: justify;
 }
 
 .about_us_content > p {
@@ -1134,6 +1135,7 @@ ol {
   font-size: 15px;
   color: #f8bbcc;
   font-weight: 500;
+  text-align: justify;
 }
 
 .landing-page .info button {
